@@ -14,13 +14,17 @@
 
 
 
-
-
-
 function applyStyles() {
-// Ваш код ...
-}
-
+    const textElement = document.querySelector(".create_elements");
+    textElement.insertAdjacentHTML(
+      "afterbegin",
+      `<main class="mainClass check item">         
+            <div id="myDiv">
+                <p>First paragraph</p>           
+            </div>
+        </main> `,
+    );
+  }
 
 
 
